@@ -9,7 +9,7 @@ This tool was writen by python and can be imported as an Toolbox in ArcGIS to im
 
 This tool can also be used to derived the topographic shielding for individual sample points. This requires the additonal steps to extract values
 from the topographic shielding raster to the sample points. The related ArcGIS tools are also included in the toolbox. However, to derive the 
-shielding factor for sample points is not efficent using this method. A new tools was redeveloped in 2018 (Li 2018).
+shielding factor for sample points is not efficent using this method. A new tools was redeveloped in 2018 (Li 2018): https://github.com/yingkui2003/topo-shielding.
 
 Cite this work:
 
