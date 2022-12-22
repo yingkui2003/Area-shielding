@@ -125,23 +125,23 @@ try:
     gp.delete_management(xxtmpsed0xx)
     #gp.delete_management(xxtmpsed1xx)
     gp.delete_management(xxtmpsedxx)
-    print "kill sucessful"
+    #print "kill sucessful"
     gp.AddMessage("Finish shielding calculation!")
     #restore the gp.extent
     gp.extent = tempEnvironment0
 except "input nonexist":
     # The input has no features
-    print wsdem + " does not exist!"
+    #print wsdem + " does not exist!"
     gp.AddMessage(wsdem + " does not exist!")
 
 except "output exist":
     # The input has no features
-    print shield + " already exist!"
+    #print shield + " already exist!"
     gp.AddMessage(shield + " already exist!")
 
 except:
     # By default any other errors will be caught here
-    print gp.getmessage(2)
+    #print gp.getmessage(2)
     gp.AddMessage(gp.getmessage(2))
 
 #end of the script
